@@ -21,9 +21,8 @@ function printPlan(startDate, mainblock, fillerWeek, condition) {
         startDate = calDate(startDate, 7)
         count++
 
-        //console.log(fillerWeek)
+        
         if (fillerWeek) {
-            console.log('here')
             result.push('Week # ' + count + ' -Filler- from ' + startDate + ' to ' + calDate(startDate, 6))
             startDate = calDate(startDate, 7)
             count++
@@ -43,16 +42,16 @@ function printPlan(startDate, mainblock, fillerWeek, condition) {
             startDate = calDate(startDate, 7)
             count++
 
-            result.push('Week # ' + count + ' -Key- from ' + startDate + ' to' + calDate(startDate, 6))
+            result.push('Week # ' + count + ' -Key- from ' + startDate + ' to ' + calDate(startDate, 6))
             startDate = calDate(startDate, 7)
             count++
         }
 
-        result.push('Week # ' + count + ' -Taper- from ' + startDate + ' to' + calDate(startDate, 6))
+        result.push('Week # ' + count + ' -Taper- from ' + startDate + ' to ' + calDate(startDate, 6))
         startDate = calDate(startDate, 7)
         count++
 
-        result.push('Week # ' + count + ' -Race- from ' + startDate + ' to' + calDate(startDate, 6))
+        result.push('Week # ' + count + ' -Race- from ' + startDate + ' to ' + calDate(startDate, 6))
 
     }
     if (condition == 2) // print plan for 2 extra weeks
@@ -81,15 +80,15 @@ function printPlan(startDate, mainblock, fillerWeek, condition) {
             startDate = calDate(startDate, 7)
             count++
 
-            result.push('Week # ' + count + ' -Build1- from ' + startDate + ' to' + calDate(startDate, 6))
+            result.push('Week # ' + count + ' -Build1- from ' + startDate + ' to ' + calDate(startDate, 6))
             startDate = calDate(startDate, 7)
             count++
 
-            result.push('Week # ' + count + ' -Build2- from ' + startDate + ' to' + calDate(startDate, 6))
+            result.push('Week # ' + count + ' -Build2- from ' + startDate + ' to ' + calDate(startDate, 6))
             startDate = calDate(startDate, 7)
             count++
 
-            result.push('Week # ' + count + ' -Key- from ' + startDate + ' to' + calDate(startDate, 6))
+            result.push('Week # ' + count + ' -Key- from ' + startDate + ' to ' + calDate(startDate, 6))
             startDate = calDate(startDate, 7)
             count++
         }
