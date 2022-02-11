@@ -1,7 +1,9 @@
 
 /** 
  function to print the plan based on how many extra weeks more than 8 (minmum number of weeks in the plan)
- its parameter @startDate , @mainblock (how many repeated blocks) , @fillerWeek (1 or 0 based on how many extra weeks)
+ @startDate the date of first day in the plan 
+ @mainblock (how many repeated blocks) 
+ @fillerWeek (1 or 0 based on how many extra weeks)
  @condition (number of extra weeks {0,1,2,3})
 */
 
